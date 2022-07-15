@@ -1,0 +1,24 @@
+img {
+    padding-left: 20px;
+}
+
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+}
+
+
+.navlist li {
+    padding: 0px 20px;
+    
+}
+
+.navlist a {
+    text-decoration: none;
+}

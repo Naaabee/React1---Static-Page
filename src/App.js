@@ -1,10 +1,11 @@
 import './App.css';
 import './React_logo_wordmark.png'
+import Header from './Header';
 
 function App() {
   return (
     <>
-      <img src={require("./React_logo_wordmark.png")} alt='react-logo' width={'150px'}/>
+      <Header />
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
