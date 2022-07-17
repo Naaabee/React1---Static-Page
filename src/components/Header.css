@@ -1,0 +1,35 @@
+header {
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+
+nav {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+    background-color: #21222A;
+    height: 90px;
+    align-items: center;
+}
+
+nav > img {
+    padding-left: 20px;
+}
+
+.nav--list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav--list > li {
+    padding: 0 20px;
+    
+}
+
+.nav--list > li > a{
+    text-decoration: none;
+    color: #DEEBF8;
+    font-weight: 600;
+}

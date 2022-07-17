@@ -1,0 +1,39 @@
+main {
+    position: relative;
+    top: 110px;
+    left: 50px;
+    background-color: #282D35;
+    background-image: url(../images/reactjs-icon\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    max-width: 800px;
+    height: 430px;
+}
+
+.main--title {
+    padding-top: 57px;
+    padding-left: 27px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.main--list {
+    padding-top: 6px;
+    padding-left: 74px;
+    
+}
+
+.main--list > li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.main--list > li::marker {
+    font-size: 1.6em;
+    color: #61DAFB;
+}
